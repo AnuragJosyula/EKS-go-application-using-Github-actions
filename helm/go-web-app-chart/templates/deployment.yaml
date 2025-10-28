@@ -5,7 +5,7 @@ metadata:
   labels:             #labels should be same for selector and servcies
     app: go-web-app
 spec:
-  replicas: 2
+  replicas: 2   #number of replicas
   selector:
     matchLabels:
       app: go-web-app
