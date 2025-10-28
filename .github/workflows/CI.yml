@@ -36,9 +36,9 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Run GolangCI-Lint #static code analysis
-      uses: golangci/golangci-lint-action@v4
+      uses: golangci/golangci-lint-action@v8
       with:
-        version: v1.59.2
+        version: v2.65.0
 
   push:
     runs-on: ubuntu-latest
